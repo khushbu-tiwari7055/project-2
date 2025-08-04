@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+   
+}
+
+.product-description {
+    padding: 20px;
+     font-size: 24px;
+}
+
+.product-description h2 {
+    margin-top: 0;
+    background-color: rgb(242, 182, 234);
+}
+
+.call-to-action {
+    background-color: #deadde;
+    padding: 20px;
+    text-align: center;
+}
+
+.call-to-action button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form {
+    padding: 20px;
+}
+
+.signup-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup-form input[type="text"], .signup-form input[type="email"] {
+    width: 400%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.signup-form button[type="submit"] {
+    background-color: #0f0e0f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    .product-description, .call-to-action, .signup-form {
+        padding: 10px;
+    }
+}
